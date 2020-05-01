@@ -93,7 +93,7 @@ namespace WowzaSDK
             using (var request = new HttpRequestMessage(httpMethod, $"{endpointURL}{additionalUrlPath}"))
             {
                 request.BuildQueryParams(queryParams);
-                request.AddWowzaRequestHeaders(Wowza.Apikey, $"{ApiSignaturePath}{EndPoint}", Wowza.UseBasicAuth);
+                request.AddWowzaRequestHeaders(Wowza.Apikey, $"{ApiSignaturePath}{EndPoint}{additionalUrlPath}", Wowza.UseBasicAuth);
 
                 if (httpMethod != HttpMethod.Get && data != null)
                 {
