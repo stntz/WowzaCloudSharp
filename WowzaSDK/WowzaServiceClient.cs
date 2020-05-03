@@ -84,7 +84,7 @@ namespace WowzaSDK
 
         protected async Task<TResult> GetActionAsync<TResult>(string additionalUrlPath, WowzaQueryParams queryParams)
         {
-            return await SendRequest<T, TResult>(HttpMethod.Get, additionalUrlPath, null, BasePath);
+            return await SendRequest<T, TResult>(HttpMethod.Get, additionalUrlPath, null, BasePath, queryParams);
         }
 
         async Task<TResult> SendRequest<TRequest, TResult>(HttpMethod httpMethod, string additionalUrlPath, TRequest data, string endpointURL, WowzaQueryParams queryParams = null)
