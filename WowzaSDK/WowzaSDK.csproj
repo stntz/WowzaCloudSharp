@@ -11,5 +11,6 @@
     <Folder Include="Models\Recordings\" />
     <Folder Include="Models\LiveStreams\" />
     <Folder Include="Models\" />
+    <Folder Include="Models\Players\" />
   </ItemGroup>
 </Project>
