@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using WowzaSDK.Models.Interfaces;
 
-namespace WowzaSDK.Models
+namespace WowzaSDK.Models.LiveStreams
 {
     internal class LiveStreamCreateModel : BaseModel
     {

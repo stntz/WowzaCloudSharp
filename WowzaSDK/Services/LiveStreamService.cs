@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using WowzaSDK.Models;
+using WowzaSDK.Models.LiveStreams;
 
 namespace WowzaSDK.Services
 {

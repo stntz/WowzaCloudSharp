@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using WowzaSDK.Models.Interfaces;
 
-namespace WowzaSDK.Models
+namespace WowzaSDK.Models.LiveStreams
 {
     public class LiveStreamResponseModel : LiveStreamModel
     {

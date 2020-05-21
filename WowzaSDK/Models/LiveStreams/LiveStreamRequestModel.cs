@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace WowzaSDK.Models
+namespace WowzaSDK.Models.LiveStreams
 {
     public class LiveStreamRequestModel : LiveStreamModel
     {
